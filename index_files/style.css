@@ -389,7 +389,7 @@ p {
     font-size: 20px;
     text-align: center;
 }
-.btn-login, .btn-payment {
+.btn-login, .btn-payment, .btn-inline-order {
     position: absolute;
     right: 43px;
     top: 30px;
@@ -400,7 +400,7 @@ p {
     font-family: 'Roboto';
     font-size: 18px;
     font-weight: 300;
-     
+
     line-height: 50px;
     text-align: center;
     text-decoration: none;
@@ -414,6 +414,11 @@ p {
     top: 70px;
     right: 25px;
     font-size: 16px !important;
+}
+.btn-inline-order {
+    display: inline;
+    width: 250px;
+    border-bottom: none;
 }
 .block2 {
     height: 625px;
@@ -429,7 +434,7 @@ p {
     font-size: 42px;
     line-height: 45px;
     padding-top: 25px;
-     
+
 }
 .block2 .icon-text {
     position: absolute;
@@ -493,7 +498,6 @@ p {
     color: #464646;
     font-family: 'Roboto';
     font-size: 18px;
-    font-weight: 300;
     background: #fecd36;
     line-height: 35px;
     text-align: center;
@@ -1116,4 +1120,9 @@ p {
 }
 .footer .btn-login {
     top: 39px;
+}
+
+.btn-red {
+    background-color: #ff1744!important;
+    font-weight: 400!important;
 }
