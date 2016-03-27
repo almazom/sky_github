@@ -416,9 +416,9 @@ p {
     font-size: 16px !important;
 }
 .btn-inline-order {
-    display: inline;
-    width: 250px;
+    width: 300px;
     border-bottom: none;
+    font-weight: 400;
 }
 .block2 {
     height: 625px;
@@ -1120,9 +1120,4 @@ p {
 }
 .footer .btn-login {
     top: 39px;
-}
-
-.btn-red {
-    background-color: #ff1744!important;
-    font-weight: 400!important;
 }
