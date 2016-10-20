@@ -3,7 +3,6 @@
 
 
 
-
 body {
     line-height: 1;
 }
@@ -428,12 +427,10 @@ p {
     right: 23px;
 }
 .block2 {
-    height: 270px;
-    background: url('../index_files/block2-bg.jpg') center center repeat-x;
+    height: 600px;
+    background: url('../index_files/kids.jpg') center center repeat-x;
 }
 .block2 .block {
-    height: 625px;
-    background: url('../index_files/block2-bg-top.png') center center no-repeat;
 }
 .block2 h1 {
     text-align: center;
