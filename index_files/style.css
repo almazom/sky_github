@@ -360,10 +360,10 @@ p {
 .block p {margin-bottom: 15px}
 .logo {
     position: absolute;
-    top: 38px;
+    top: 28px;
     left: 25px;
     display: block;
-    width: 384px;
+    width: 336px;
     height: 52px;
     background-image: url(../index_files/logo.png);
     text-indent: -10000px;
@@ -421,7 +421,7 @@ p {
     font-size: 16px !important;
 }
 .btn-inline-order {
-    width: 320px;
+    width: 543px;
     border-bottom: none;
     font-weight: 400;
     right: 23px;
@@ -479,7 +479,7 @@ p {
     display: none;
 }
 .block3 {
-    height: 350px;
+    height: 380px;
     background: url('../index_files/block3-bg.jpg') center center repeat-x;
 }
 .block3 .price {
@@ -522,11 +522,18 @@ p {
 
 .btn-yellow {
     color: #fff;
+    background: green;
+    border-bottom-color: yellow;
+    /*text-shadow: 2px 1px 1px #b71c1c;*/
+}
+
+
+.btn-green {
+    color: #fff;
     background: #ff1744;
     border-bottom-color: #b71c1c;
     /*text-shadow: 2px 1px 1px #b71c1c;*/
 }
-
 
 .block3 .btns {
     text-align: center;
